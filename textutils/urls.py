@@ -18,14 +18,6 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 
-#code for video6
-# urlpatterns = [
-#     path('admin/', admin.site.urls),
-#     path('', views.index, name='index'),
-#     path('about', views.about, name='about'),
-# ]
-
-#code for video 7
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
